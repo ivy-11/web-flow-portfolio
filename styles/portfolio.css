@@ -75,3 +75,47 @@
     .banner .btn-primary {
         display: inline-block;
     }
+
+    /* main styles */
+    main {
+        width: 1140px;
+        height: 328px;
+        margin-top: 49px;
+        margin-left: 141px;
+        margin-right: 159px;
+    }
+
+    /* action styles */
+    .action-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+
+    }
+
+    .left-side {
+        width: 517px;
+    }
+
+    .right-side {
+        width: 403px;
+    }
+
+    .right-side img {
+        max-width: 100%;
+        border-radius: 48px;
+    }
+
+    .section-title {
+        font-weight: bold;
+        font-size: 42px;
+        color: #252432;
+    }
+
+    .section-sub-title {
+        font-weight: regular;
+        font-size: 24px;
+        color: #252432;
+    }
