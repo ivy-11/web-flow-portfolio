@@ -10,9 +10,20 @@
     }
 
 
+    .inter-normal {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+
     /* shared style */
     .text-primary {
         color: #4E47FF;
+    }
+
+    .primary-color {
+        color: #252432;
     }
 
     .btn-primary {
@@ -33,7 +44,6 @@
         background-image: url(../Assets/Hero-bg.png);
     }
 
-
     /* Nav styles */
     nav {
         display: flex;
@@ -43,12 +53,9 @@
         height: 151px;
         margin: 0 auto;
         padding: 0px 50px;
-
-
     }
 
     .nav-title {
-
         font-weight: black;
         font-size: 34px;
     }
@@ -60,7 +67,6 @@
         margin: 0 auto;
         margin-top: 158px;
         text-align: center;
-
     }
 
     .banner h2 {
@@ -83,6 +89,7 @@
         margin-top: 49px;
         margin-left: 141px;
         margin-right: 159px;
+
     }
 
     /* action styles */
@@ -90,9 +97,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
-
-
     }
 
     .left-side {
@@ -111,11 +115,58 @@
     .section-title {
         font-weight: bold;
         font-size: 42px;
-        color: #252432;
+
     }
 
     .section-sub-title {
         font-weight: regular;
         font-size: 24px;
-        color: #252432;
+
+    }
+
+    /* user section styles */
+    .productive-user-container {
+        border-radius: 24px;
+        padding: 40px 80px;
+        text-align: center;
+        background-color: rgba(78, 71, 255, 0.1);
+        margin-top: 110px;
+    }
+
+    .productive-user-title {
+        font-weight: bold;
+        font-size: 38px;
+        margin-bottom: 40px;
+        max-width: 856px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .users-items {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .user-item {
+        text-align: center;
+    }
+
+    .user-number {
+        font-weight: bold;
+        font-size: 80px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+
+    }
+
+    .user-description {
+        font-weight: regular;
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+
     }
