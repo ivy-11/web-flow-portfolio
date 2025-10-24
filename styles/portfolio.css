@@ -167,6 +167,72 @@
         font-size: 20px;
         margin-top: 0px;
         margin-bottom: 0px;
+    }
 
+    /* touch section styles */
+    .touch-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 71px;
+    }
 
+    .left-section {
+        width: 45%;
+        font-size: 97px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .right-section {
+        width: 45%;
+        background-color: #FFFFFF;
+    }
+
+    .form-group {
+        display: block;
+        margin-bottom: 19px;
+    }
+
+    .form-group label {
+        font-size: 18px;
+        font-weight: medium;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 20px;
+        font-weight: 400px;
+    }
+
+    .form-group label,
+    .form-group input,
+    .form-group textarea {
+        display: block;
+        width: 100%;
+    }
+
+    .touch-form input,
+    .touch-form textarea {
+        display: block;
+        padding: 20px 32px;
+        border-radius: 10px;
+        width: 100%;
+        background-color: #FFFFFF;
+        border: 1px solid #000000;
+    }
+
+    .right-section .btn-primary {
+        display: block;
+        width: 100%;
+        padding: 20px 0px;
+        border-radius: 10px;
+
+    }
+
+    .touch-form label {
+        display: block;
+        margin-bottom: 5px;
     }
